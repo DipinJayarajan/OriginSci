@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin:  0px; */
+    /* align-items: center; */
+    /* padding: 0 4rem; */
+    background: transparent;
+    margin-top: 56px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    font-family: dm-sans, sans-serif;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.logo-img{
+    width: 180px;
+    height: 60px;
+    
+}
+
+.contactUs{
+    position: relative;
+    font-family: DM Sans, sans-serif;
+}
+
+button {
+    background-color: #4460F1;
+    margin-right: 80px;
+    width: 165px;
+    height: 55px;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    transition: all 300ms ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: dm-sans, sans-serif;
+   }
+
+button:hover {
+    cursor: pointer;
+    /* color: #fff; */
+    transform: scale(1.1);
+}
+
+.contactUs-form {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1rem;
+    /* background-color: #fff; */
+    margin-right: 20px;
+}
+   
+.contactFormEmail {
+    width: 283px;
+    height: 155px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: .51rem;
+    box-shadow: 0px 24px 45px rgba(35, 35, 35, 0.2);
+    padding: 1rem;
+    line-height: 1px;
+    background-color: #fff;
+} 
+
+.contacts {
+    font-weight: 600;
+    font-family: DM Sans, sans-serif;
+    font-size: 17px;
+    margin-top: 1.8rem;
+    cursor: pointer;
+}
+
+.contactFormPhone {
+    width: 283px;
+    height: 155px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: .51rem;
+    box-shadow: 0px 24px 45px rgba(35, 35, 35, 0.2);
+    padding: 1rem;
+    line-height: 1px;
+    background-color: #fff;
+}
+
+.topTwo {
+    line-height: 10px;
+    font-size: 12px;
+}
+
+.contact-title{
+    font-size: 16px;
+    font-family: DM Sans, sans-serif;
+    font-weight: bold;
+}
+
+.contact-details{
+    font-size: 14px;
+    color: #808080;
+    font-family: DM, sans-serif;
+}
+
+.emailDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4px;
+    
+}
+
+.copyButton{
+    color:  rgba(196, 196, 196, 1);
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo{
+        margin-left: 80px;
+    }
+
+    .logo img{
+        width: 170px;
+        height: 60px;
+    }
+
+    button{
+        margin-top: 12px;
+        width: 132px;
+        height: 48px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo{
+        margin-left: 45px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 27px;
+    }
+
+    .contactUs{
+        position: absolute;
+        top: -5px;
+        right: -9%;
+    }
+
+    button{
+        margin-top: 0px;
+        width: 115px;
+        height: 45px;
+        font-size: 0.9rem;
+    }
+}
+
+/* 425 */
+
+@media screen and (max-width: 425px) {
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo{
+        margin-left: 33px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 27px;
+    }
+
+    button{
+        margin-top: 0px;
+        width: 115px;
+        height: 45px;
+        font-size: 0.9rem;
+    }
+}
+
+/* 375 */
+
+@media screen and (max-width: 375px) {
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 27px;
+    }
+
+    button{
+        /* margin-top: 16px; */
+        width: 115px;
+        height: 45px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .logo{
+        margin-left: 23px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 27px;
+    }
+
+    button{
+        width: 105px;
+        height: 40px;
+        font-size: 12px;
+        font-family: DM Sans, sans-serif;
+    }
+
+    .contactUs{
+        position: absolute;
+        top: -5px;
+        right: -14%;
+    }
+}
